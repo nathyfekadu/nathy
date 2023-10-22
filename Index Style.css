@@ -1,0 +1,71 @@
+body{
+    min-height: 95vh;
+    width: 950%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(36,39,46,0.7)), url('IMGS/background-19.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.rpsps{
+    display: inline-block;
+}
+
+.rpsps .rpsp{
+    font-size: 45px;
+    color: lightslategray;
+    font-weight: bold;
+    display: block;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+}
+
+.rpsps .rpsp::after{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.rpsps .rpsp:hover::after{
+    width: 100%;
+}
+
+.rpsps .rpsp::before{
+    content: '';
+    width: 0%;
+    height: 4px;
+    background-color: white;
+    display: block;
+    transition: 0.5s;
+    margin: auto;
+}
+
+.rpsps .rpsp:hover::before{
+    width: 100%;
+}
+
+section .play{
+    background-color: transparent;
+    border: solid 2px white;
+    color: white;
+    padding: 20px 50px;
+    transition: 1s;
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    cursor: grab;
+    font-size: 16px;
+}
+
+section .play:hover{
+    background-color: rgb(94, 91, 91);
+    border: solid 2px rgb(94, 91, 91);
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    color: black;   
+}

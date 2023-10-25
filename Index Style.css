@@ -69,3 +69,22 @@ section .play:hover{
     border-top-right-radius: 20px; 
     color: black;   
 }
+
+@media (max-width:751px) {
+    section .play{
+        margin-top: 50px;
+        margin-left: -15px;
+    }
+}
+
+@media(min-width:752px) and (max-width:850px){
+    section .play{
+        margin-left: 70px;
+    }
+}
+
+@media(min-width:851px) and (max-width:1000px){
+    section .play{
+        margin-left: 50px;
+    }
+}

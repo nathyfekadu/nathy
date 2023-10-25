@@ -1,6 +1,6 @@
 body{
-    min-height: 95vh;
-    width: 950%;
+    min-height: 100vh;
+    width: 95%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(36,39,46,0.7)), url('IMGS/background-19.jpg');
     background-position: center;
     background-size: cover;
